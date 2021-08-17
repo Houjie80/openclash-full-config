@@ -1,7 +1,4 @@
 proxies:
-- name: "Sosmed1"
-  type: ss
-  proxies:
 - name: "Shadowsocks"
   type: ss
   server: insert host/ip
@@ -36,20 +33,3 @@ proxies:
   ws-path: Namassh
   ws-headers:
     Host: domain.com
-: insert host/ip
-  port: insert port
-  cipher: insert chipher
-  password: insert password
-  udp: true
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: domain.com
-- name: "Sosmed2"
-  type: trojan
-  server: insert host/ip
-  port: insert port
-  password: insert password
-  udp: true
-  sni: domain.com
-  skip-cert-verify: true
