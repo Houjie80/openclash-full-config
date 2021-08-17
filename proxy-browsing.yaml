@@ -1,0 +1,21 @@
+proxies:
+- name: "Streaming"
+  type: ss
+  server: insert host/ip
+  port: insert port
+  cipher: insert cipher
+  password: insert password
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: domain.com
+proxies:
+- name: "trojan"
+  type: trojan
+  server: insert host/ip
+  port: insert port
+  password: insert password
+  udp: true
+  sni: domain.com
+  skip-cert-verify: true
