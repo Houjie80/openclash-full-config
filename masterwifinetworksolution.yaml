@@ -140,4 +140,4 @@ rule-providers:
   Direct:
     type: file
     behavior: classical
-    path: "./rule_provider/direct.yaml"
+    path: "./rule_provider/direct.yaml
