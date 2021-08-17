@@ -1,5 +1,5 @@
 proxies:
-- name: "Streaming"
+- name: "Shadowsocks"
   type: ss
   server: insert host/ip
   port: insert port
@@ -10,8 +10,7 @@ proxies:
   plugin-opts:
     mode: tls
     host: domain.com
-proxies:
-- name: "trojan"
+- name: "Trojan"
   type: trojan
   server: insert host/ip
   port: insert port
@@ -19,3 +18,18 @@ proxies:
   udp: true
   sni: domain.com
   skip-cert-verify: true
+- name: "Vmess"
+  type: vmess
+  server: insert host or ip
+  port: insert port
+  uuid: insert UUID
+  alterId: 32
+  cipher: insert-cipher
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: domain.com
+  network: ws
+  ws-path: Namassh
+  ws-headers:
+    Host: domain.com
