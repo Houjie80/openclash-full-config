@@ -2,28 +2,28 @@
 proxy-providers:
   Gaming:
     type: file
-    path: "./proxy_provider/gaming.yaml"
+    path: "./proxy_provider/proxies-gaming.yaml"
     health-check:
       enable: false
       url: http://www.gstatic.com/generate_204
       interval: 300
   Sosmed:
     type: file
-    path: "./proxy_provider/sosmed.yaml"
+    path: "./proxy_provider/proxies-sosmed.yaml"
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
   Streaming:
     type: file
-    path: "./proxy_provider/streaming.yaml"
+    path: "./proxy_provider/proxies-streaming.yaml"
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
   Browsing:
     type: file
-    path: "./proxy_provider/browsing.yaml"
+    path: "./proxy_provider/proxies-browsing.yaml"
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
@@ -124,19 +124,19 @@ rule-providers:
   Sosmed:
     type: file
     behavior: classical
-    path: "./rule_provider/sosmed.yaml"
+    path: "./rule_provider/rules-sosmed.yaml"
   Streaming:
     type: file
     behavior: classical
-    path: "./rule_provider/streaming.yaml"
+    path: "./rule_provider/rules-streaming.yaml"
   Gaming:
     type: file
     behavior: classical
-    path: "./rule_provider/gaming.yaml"
+    path: "./rule_provider/rules-gaming.yaml"
   Browsing:
     type: file
     behavior: classical
-    path: "./rule_provider/browsing.yaml"
+    path: "./rule_provider/rules-browsing.yaml"
   Direct:
     type: file
     behavior: classical
