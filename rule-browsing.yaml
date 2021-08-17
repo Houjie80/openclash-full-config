@@ -3,6 +3,9 @@ payload:
   # clash browsing khusus untuk browsing
   # tanggal di buat file ini jumat 13 agustus 2021
   # semua domain saya kumpulkan seminggu yang lalu
+  # Github
+  - DOMAIN-SUFFIX,github.com
+  - DOMAIN-KEYWORD,github
   - DOMAIN-SUFFIX,play.google.com
   - DOMAIN-KEYWORD,www.google.  
   - DOMAIN-SUFFIX,.bo
