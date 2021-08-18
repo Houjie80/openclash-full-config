@@ -1,6 +1,6 @@
 payload:  
   # PlayerUnknown's Battlegrounds PUBG Mobile
-  # Subscribe Channel "Master Wifi Network Solution"
+  # Subscribe Channel Master Wifi Network Solution
   - IP-CIDR,13.32.1.0/24
   - IP-CIDR,13.32.1.255/32
   - IP-CIDR,13.32.8.0/24
