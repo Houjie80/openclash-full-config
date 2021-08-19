@@ -37,6 +37,17 @@ https://github.com/MasterWifiNetworkSolution/openclash-full-config/blob/main/rul
 # rule direct.yaml (to bypass or not vpn trafict).
 https://github.com/MasterWifiNetworkSolution/openclash-full-config/blob/main/direct.yaml
 
+# Proxies Shadowsocks.yaml
+https://github.com/MasterWifiNetworkSolution/openclash-full-config/blob/main/shadowsocks.yaml
+
+# Proxies Trojan.yaml
+https://github.com/MasterWifiNetworkSolution/openclash-full-config/blob/main/trojan.yaml
+
+# Proxies Vmess-Tls.yaml
+https://github.com/MasterWifiNetworkSolution/openclash-full-config/blob/main/vmess-tls.yaml
+
+# Proxies Socks5.yaml
+https://github.com/MasterWifiNetworkSolution/openclash-full-config/blob/main/socks5.yaml
 
 # thanks, please subscribe my channel
 # Master Wifi Network Solution
